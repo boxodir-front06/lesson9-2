@@ -1,0 +1,60 @@
+body {
+  background-color: #dddcdc;
+}
+
+.box {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.box img {
+  width: 250px;
+  height: 250px;
+  margin-left: 20px;
+}
+
+.box h1 {
+  padding-top: 20px;
+}
+
+.box p {
+  font-size: 20px;
+}
+
+.box button {
+  font-size: 20px;
+  margin-left: 20px;
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+  outline: 1px solid blue;
+}
+
+.box i {
+  font-size: 25px;
+  padding-left: 40px;
+  margin-top: 20px;
+  color: red;
+}
+
+button:focus {
+  background-color: #04ff04;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+  -webkit-box-shadow: 5px 5px 15px #04ff04;
+          box-shadow: 5px 5px 15px #04ff04;
+}
+
+.box:hover {
+  -webkit-box-shadow: 0 0 10px;
+          box-shadow: 0 0 10px;
+}
+
+i:hover {
+  color: blue;
+}
+/*# sourceMappingURL=main.css.map */

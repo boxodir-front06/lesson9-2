@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(221, 220, 220);
+}
+.box{
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+   
+    img{
+        width: 250px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    h1{
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    button{ 
+        font-size: 20px;
+        margin-left: 20px;
+        background-color: blue;
+        color: white;
+        border: 1px solid white;
+        outline: 1px solid blue;
+    }
+    i{
+        font-size:25px;
+        padding-left: 40px;
+        margin-top: 20px;
+        color: red;
+    }
+}
+button:focus{
+    background-color: rgb(4, 255, 4);
+   transition: all .2s linear;
+    box-shadow: 5px 5px 15px rgb(4, 255, 4);
+}
+.box:hover{
+    box-shadow: 0 0 10px;
+}
+  i:hover{
+      color: blue;
+  }
